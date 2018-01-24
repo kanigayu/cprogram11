@@ -1,11 +1,15 @@
 #include<stdio.h>
 int main()
 {
-int N[size1],N[size2],k[i],i,sum=0;
-scanf("%d",&N[size1],&N[size2]);
-scanf("%d",&k[i]);
-  sum=N[size1]+N[size2];
-  printf("%d",sum);
-  return 0;
+int n[7]={7,6,5,4,3,2,1},i,sum=0,k;
+  printf("Enter the value of k");
+  scanf("%d",&k);
+  for(i=o;i<k;i++)
+  {
+    sum=sum+n[i];
+  }
+  printf("The num is %d",sum);
+}
+return 0;
 }
 
